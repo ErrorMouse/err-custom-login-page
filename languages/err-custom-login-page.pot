@@ -1,0 +1,269 @@
+# Copyright (C) 2025 Err
+# This file is distributed under the same license as the Custom Login Page plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Login Page 1.26.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/err-custom-login-page\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-06 00:45+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: err-custom-login-page\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: err-custom-login-page.php:123 err-custom-login-page.php:3
+msgid "Customize the logo, links, colors and background on the WordPress login page."
+msgstr ""
+
+#: err-custom-login-page.php:123 err-custom-login-page.php:124
+msgid "Custom Login Page"
+msgstr ""
+
+#: err-custom-login-page.php:137
+msgid "Login Page Logo Settings"
+msgstr ""
+
+#: err-custom-login-page.php:142
+msgid "Select Logo Image"
+msgstr ""
+
+#: err-custom-login-page.php:143
+msgid "Logo Link URL"
+msgstr ""
+
+#: err-custom-login-page.php:144
+msgid "Logo Height (px)"
+msgstr ""
+
+#: err-custom-login-page.php:148
+msgid "Login Page Appearance Settings"
+msgstr ""
+
+#: err-custom-login-page.php:153
+msgid "Body Background Image"
+msgstr ""
+
+#: err-custom-login-page.php:154
+msgid "Body Background Color (Fallback)"
+msgstr ""
+
+#: err-custom-login-page.php:155
+msgid "Form Background Color"
+msgstr ""
+
+#: err-custom-login-page.php:156
+msgid "Form Background Opacity"
+msgstr ""
+
+#: err-custom-login-page.php:157
+msgid "Enable Form Backdrop Blur"
+msgstr ""
+
+#: err-custom-login-page.php:158
+msgid "Form Border Width (px)"
+msgstr ""
+
+#: err-custom-login-page.php:159
+msgid "Form Border Color"
+msgstr ""
+
+#: err-custom-login-page.php:160
+msgid "Form Border Opacity"
+msgstr ""
+
+#: err-custom-login-page.php:161
+msgid "Form Border Radius (px)"
+msgstr ""
+
+#: err-custom-login-page.php:162
+msgid "Form Box Shadow Color"
+msgstr ""
+
+#: err-custom-login-page.php:163
+msgid "Form Label Text Color"
+msgstr ""
+
+#: err-custom-login-page.php:164
+msgid "Form Input Text Color"
+msgstr ""
+
+#: err-custom-login-page.php:165
+msgid "Form Link Color"
+msgstr ""
+
+#: err-custom-login-page.php:166
+msgid "Form Link Color (Hover)"
+msgstr ""
+
+#: err-custom-login-page.php:167
+msgid "Login Button Background Color"
+msgstr ""
+
+#: err-custom-login-page.php:168
+msgid "Login Button Text Color"
+msgstr ""
+
+#: err-custom-login-page.php:169
+msgid "Login Button Background Color (Hover)"
+msgstr ""
+
+#: err-custom-login-page.php:170
+msgid "Login Button Text Color (Hover)"
+msgstr ""
+
+#: err-custom-login-page.php:181 err-custom-login-page.php:211
+msgid "Select image"
+msgstr ""
+
+#: err-custom-login-page.php:184 err-custom-login-page.php:214
+msgid "Remove image"
+msgstr ""
+
+#: err-custom-login-page.php:189
+msgid "Select an image from the Media Library. For best results, use a PNG with a transparent background."
+msgstr ""
+
+#: err-custom-login-page.php:199
+msgid "Enter the URL the logo will point to. Defaults to the homepage: %s"
+msgstr ""
+
+#: err-custom-login-page.php:209
+msgid "Leave blank for no height restriction."
+msgstr ""
+
+#: err-custom-login-page.php:219
+msgid "Select a background image for the entire login page."
+msgstr ""
+
+#: err-custom-login-page.php:228
+msgid "This color is a fallback if no background image is set."
+msgstr ""
+
+#: err-custom-login-page.php:237
+msgid "For backdrop blur to be visible, set opacity below."
+msgstr ""
+
+#: err-custom-login-page.php:246
+msgid "Drag to adjust opacity (0.0 is transparent, 1.0 is opaque)."
+msgstr ""
+
+#: err-custom-login-page.php:255
+msgid "Enable a backdrop blur effect for the login form."
+msgstr ""
+
+#: err-custom-login-page.php:258
+msgid "For this to be noticeable, \"Form Background Opacity\" must be less than 1."
+msgstr ""
+
+#: err-custom-login-page.php:268
+msgid "Enter <code>0</code> for no border. Leave blank for WordPress default."
+msgstr ""
+
+#: err-custom-login-page.php:279
+msgid "Only effective if Border Width is set."
+msgstr ""
+
+#: err-custom-login-page.php:288
+msgid "Border color opacity (0.0 - 1.0)."
+msgstr ""
+
+#: err-custom-login-page.php:298
+msgid "Leave blank for default."
+msgstr ""
+
+#: err-custom-login-page.php:307
+msgid "Leave blank for no shadow."
+msgstr ""
+
+#: err-custom-login-page.php:316
+msgid "Color for labels like \"Username or Email Address\"."
+msgstr ""
+
+#: err-custom-login-page.php:325
+msgid "Text color inside input fields."
+msgstr ""
+
+#: err-custom-login-page.php:330 err-custom-login-page.php:336 err-custom-login-page.php:342 err-custom-login-page.php:348
+msgid "Leave blank to use default color."
+msgstr ""
+
+#: err-custom-login-page.php:355
+msgid "Hide the privacy policy link."
+msgstr ""
+
+#: err-custom-login-page.php:364
+msgid "Hide the language switcher."
+msgstr ""
+
+#: err-custom-login-page.php:373
+msgid "Hide the \"Back to [Site Name]\" link."
+msgstr ""
+
+#: err-custom-login-page.php:511 err-custom-login-page.php:514
+msgid "Save Changes"
+msgstr ""
+
+#: err-custom-login-page.php:518
+msgid "Reset Settings"
+msgstr ""
+
+#: err-custom-login-page.php:519
+msgid "If you want to return all settings to their original default values, click the button below."
+msgstr ""
+
+#: err-custom-login-page.php:522
+msgid "Reset All Options to Default"
+msgstr ""
+
+#: err-custom-login-page.php:525
+msgid "Warning: This action is irreversible."
+msgstr ""
+
+#: err-custom-login-page.php:567
+msgid "Saving..."
+msgstr ""
+
+#: err-custom-login-page.php:568 err-custom-login-page.php:825
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: err-custom-login-page.php:569
+msgid "Error! Could not save settings."
+msgstr ""
+
+#: err-custom-login-page.php:570
+msgid "Are you sure you want to reset all settings? This cannot be undone."
+msgstr ""
+
+#: err-custom-login-page.php:571
+msgid "Resetting..."
+msgstr ""
+
+#: err-custom-login-page.php:810
+msgid "Settings"
+msgstr ""
+
+#: err-custom-login-page.php:818 err-custom-login-page.php:839
+msgid "Security error."
+msgstr ""
+
+#: err-custom-login-page.php:821 err-custom-login-page.php:842
+msgid "Permission denied."
+msgstr ""
+
+#: err-custom-login-page.php:782
+msgid "Settings have been reset."
+msgstr ""
+
+#: err-custom-login-page.php:825
+msgid "Donate to support this plugin"
+msgstr ""
+
+#: err-custom-login-page.php:887
+msgid "Donate"
+msgstr ""

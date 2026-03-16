@@ -1,0 +1,183 @@
+#errculop-settings-page {
+   --color-main-1: #00a1ff;
+   --color-main-2: #0066ff;
+   max-width: 100%;
+   margin-top: 40px;
+   padding: 40px;
+}
+
+#errculop-settings-page .wrap {
+   max-width: 1000px;
+   padding: 60px 40px;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   margin: 0 auto;
+   background-color: #fafdff;
+}
+
+#errculop-settings-page a:focus {
+   box-shadow: none;
+}
+
+#errculop-settings-page h1 {
+   margin-bottom: 60px;
+   font-size: 30px;
+}
+
+#errculop-settings-page h1>span {
+   padding-left: 10px;
+   color: dimgray;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+#errculop-settings-page h1 .donate a {
+   --dash-color-default: #f42d4d;
+   --dash-color-hover: #e97084;
+   --dash-bg-inner: #FFFFFF;
+   position: relative;
+   display: inline-block;
+   padding: 1px;
+   border-radius: 4px; 
+   text-decoration: none;
+   background-image: repeating-linear-gradient(
+      45deg,
+      var(--dash-color-default),
+      var(--dash-color-default) 3px,
+      transparent 0px,
+      transparent 7px
+   );
+   background-size: 10px 10px;
+   animation: moveDashes 0.6s linear infinite;
+}
+
+#errculop-settings-page h1 .donate a > span {
+  display: block;
+  padding: 2px 8px;
+  background-color: var(--dash-bg-inner);
+  border-radius: 3px;
+  color: var(--dash-color-default);
+  font-size: 14px;
+  font-weight: 400;
+  transition: color .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#errculop-settings-page h1 .donate a:hover {
+   background-image: repeating-linear-gradient(
+      45deg,
+      var(--dash-color-hover),
+      var(--dash-color-hover) 3px,
+      transparent 0px,
+      transparent 7px
+   );
+}
+
+#errculop-settings-page h1 .donate a:hover > span {
+  color: var(--dash-color-hover);
+}
+
+@keyframes moveDashes {
+   to {
+      background-position: 15px 5px;
+   }
+}
+
+#errculop-settings-page h2 {
+   margin-top: 80px;
+   padding: 7px 0 15px;
+   border-bottom: thin solid #e7e7e7;
+   font-size: 18px;
+}
+
+#errculop-settings-page form {
+   position: relative;
+}
+
+#errculop-settings-page form #errculop_logo_image_url,
+#errculop-settings-page form #errculop_body_bg_image_url,
+#errculop-settings-page form button.errculop_upload_image_button {
+   margin: 5px 5px 0 0;
+}
+
+#errculop-settings-page form input[type="text"],
+#errculop-settings-page form input[type="number"],
+#errculop-settings-page form input[type="url"] {
+   border: thin solid var(--color-main-1);
+   border-radius: 4px;
+}
+
+#errculop-settings-page form input[type="text"]:focus,
+#errculop-settings-page form input[type="number"]:focus,
+#errculop-settings-page form input[type="url"]:focus {
+   outline: thin solid var(--color-main-1);
+}
+
+#errculop-settings-page form button {
+   height: unset;
+   min-height: unset;
+   transition: .2s ease-in-out;
+}
+
+#errculop-settings-page form button.errculop_upload_image_button {
+   background-color: var(--color-main-1);
+   border: none;
+   border-radius: 4px;
+   color: #ffffff;
+}
+
+#errculop-settings-page form button.errculop_upload_image_button:hover {
+   background-color: var(--color-main-2);
+}
+
+#errculop-settings-page form p.submit {
+   display: inline-block;
+   float: right;
+   position: sticky;
+   top: 60px;
+   right: 0;
+   margin: 0;
+   padding: 0;
+   z-index: 9999;
+}
+
+#errculop-settings-page form button.errculop_remove_image_button {
+   background-color: #fff0f0;
+   border: thin solid red;
+   color: red;
+}
+
+#errculop-settings-page form button.errculop_remove_image_button:hover {
+   background-color: red;
+   color: white;
+}
+
+#errculop-settings-page form p.submit #submit {
+   position: relative;
+   z-index: 1;
+   padding: 3px 15px;
+   background: linear-gradient(90deg, var(--color-main-2), var(--color-main-1), var(--color-main-2));
+   background-size: 200% 100%;
+   animation: gradientBackgroundAnimation 2s ease infinite;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   box-shadow: 0 0 10px rgba(0, 162, 255, 0.2);
+   font-size: 12px;
+   cursor: pointer;
+   transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#errculop-settings-page form p.submit #submit:hover {
+   transform: scale(1.1);
+   animation-duration: 1.2s;
+   box-shadow: 0 0 15px rgba(0, 162, 255, 0.3);
+}
+
+@keyframes gradientBackgroundAnimation {
+   0% {
+      background-position: 200% 50%;
+   }
+   100% {
+      background-position: 0% 50%;
+   }
+}
