@@ -554,7 +554,7 @@ function errclp_enqueue_admin_scripts( $hook_suffix ) {
 	// Styles for the donate link on the plugins page.
 	if ( $is_plugins_page ) {
 		$donate_css = "
-            .errclp-donate-link {
+            .err-donate-link {
                 font-weight: bold;
                 background: linear-gradient(90deg, #0066ff, #00a1ff, rgb(255, 0, 179), #0066ff);
                 background-size: 200% auto;
@@ -565,7 +565,7 @@ function errclp_enqueue_admin_scripts( $hook_suffix ) {
                 -webkit-text-fill-color: transparent;
                 animation: errclpGradientText 2s linear infinite;
             }
-            @keyframes errclpGradientText {
+            @keyframes errGradientText {
                 to { background-position: -200% center; }
             }";
 		wp_add_inline_style( 'wp-admin', $donate_css );
@@ -818,7 +818,7 @@ function errclp_get_default_options() {
 function errclp_donate_link_html() {
 	$donate_url = 'https://err-mouse.id.vn/donate';
 	printf(
-		'<a href="%1$s" target="_blank" rel="noopener noreferrer" class="errclp-donate-link" aria-label="%2$s"><span>%3$s 🚀</span></a>',
+		'<a href="%1$s" target="_blank" rel="noopener noreferrer" class="err-donate-link" aria-label="%2$s"><span>%3$s 🚀</span></a>',
 		esc_url( $donate_url ),
 		esc_attr__( 'Donate to support this plugin', 'err-custom-login-page' ),
 		esc_html__( 'Donate', 'err-custom-login-page' )
