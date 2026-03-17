@@ -563,7 +563,7 @@ function errclp_enqueue_admin_scripts( $hook_suffix ) {
                 -moz-background-clip: text;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
-                animation: errclpGradientText 2s linear infinite;
+                animation: errGradientText 2s linear infinite;
             }
             @keyframes errGradientText {
                 to { background-position: -200% center; }
