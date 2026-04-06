@@ -457,7 +457,7 @@ function errclp_settings_page_html() {
 	?>
 	<div id="errclp-settings-page">
 		<div class="wrap">
-			<h1><?php echo esc_html( get_admin_page_title() ); ?><span class="author">by <a href="https://www.linkedin.com/in/nmtnguyen56" target="_blank" rel="noopener noreferrer">Err</a></span><span class="donate"><?php errclp_donate_link_html(); ?></span></h1>
+			<h1><?php echo esc_html( get_admin_page_title() ); ?><span class="author">by <a href="https://profiles.wordpress.org/nmtnguyen56/" target="_blank" rel="noopener noreferrer">Err</a></span><span class="donate"><?php errclp_donate_link_html(); ?></span></h1>
 			
 			<div id="errclp-ajax-popup" class="errclp-notice" style="display:none;">
 				<p></p>
