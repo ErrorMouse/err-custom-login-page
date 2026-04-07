@@ -3,7 +3,7 @@
  * Plugin Name:       Custom Login Page
  * Plugin URI:        https://err-mouse.id.vn
  * Description:       Customize the logo, links, colors and background on the WordPress login page.
- * Version:           1.26.6
+ * Version:           1.26.7
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Err
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // REWRITTEN: Use a unique and longer prefix for all constants.
 define( 'ERRCLP_SETTINGS_SLUG', 'err-custom-login-settings' );
 define( 'ERRCLP_OPTION_NAME', 'err-custom-login-options' );
-define( 'ERRCLP_VERSION', '1.26.6' );
+define( 'ERRCLP_VERSION', '1.26.7' );
 
 /**
  * Helper function to convert HEX to RGBA.
@@ -456,7 +456,7 @@ function errclp_settings_page_html() {
 	}
 	?>
 	<div id="errclp-settings-page">
-		<div class="wrap">
+		<div>
 			<h1><?php echo esc_html( get_admin_page_title() ); ?><span class="author">by <a href="https://profiles.wordpress.org/nmtnguyen56/" target="_blank" rel="noopener noreferrer">Err</a></span><span class="donate"><?php errclp_donate_link_html(); ?></span></h1>
 			
 			<div id="errclp-ajax-popup" class="errclp-notice" style="display:none;">

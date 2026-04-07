@@ -6,7 +6,7 @@
    padding: 40px;
 }
 
-#errclp-settings-page .wrap {
+#errclp-settings-page>div {
    max-width: 1000px;
    padding: 60px 40px;
    border-radius: 20px;

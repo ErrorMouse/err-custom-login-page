@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Custom Login Page plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Custom Login Page 1.26.6\n"
+"Project-Id-Version: Custom Login Page 1.26.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/err-custom-login-page\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

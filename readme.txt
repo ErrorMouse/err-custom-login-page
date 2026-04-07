@@ -4,7 +4,7 @@ Donate link: https://err-mouse.id.vn/donate
 Tags: login, custom login, login page, appearance, branding
 Requires at least: 5.2
 Tested up to: 6.9
-Stable tag: 1.26.6
+Stable tag: 1.26.7
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -116,8 +116,11 @@ Try adjusting the "Logo Height (px)" setting. If you leave it blank, the plugin 
 
 == Upgrade Notice ==
 
+= 1.26.7 =
+Update the settings page style.
+
 = 1.26.5 =
-Change name ^^
+Change name.
 
 = 1.26.0 =
 This is the first version of the plugin. Enjoy customizing your WordPress login page!
